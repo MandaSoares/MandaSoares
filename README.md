@@ -10,9 +10,6 @@
   <a href="mailto:amanda_silvasoares@hotmail.com"><img src="https://img.shields.io/badge/Email-e88aab?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
-<!-- Typing animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=E88AAB&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Inspirando+meninas+em+STEM+%F0%9F%8C%B8;Construindo+tecnologia+com+prop%C3%B3sito+%E2%9C%BF;Engenheira+%C2%B7+Pesquisadora+%C2%B7+Desenvolvedora+%F0%9F%8C%B7" alt="Typing SVG" />
-
 </div>
 
 <!-- About -->
