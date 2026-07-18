@@ -46,7 +46,11 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MandaSoares&bg_color=fff5f7&color=e88aab&line=e88aab&point=5c3a4a&area=true&area_color=f8c8d8&hide_border=true&custom_title=Minhas%20Contribui%C3%A7%C3%B5es%20%F0%9F%8C%B8" alt="Activity Graph" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MandaSoares/MandaSoares/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MandaSoares/MandaSoares/output/github-snake.svg" />
+  <img alt="Contribution animation" src="https://raw.githubusercontent.com/MandaSoares/MandaSoares/output/github-snake.svg" />
+</picture>
 
 </div>
 
