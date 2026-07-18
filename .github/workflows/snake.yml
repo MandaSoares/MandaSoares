@@ -1,23 +1,27 @@
-name: Generate Snake
+name: Generate Pac-Man
 
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   build:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - uses: Platane/snk/svg-only@v3
+      - uses: actions/checkout@v4
+      - run: mkdir -p dist
+
+      - uses: AndreRuperto/svg-pacman-contributions@main
         with:
           github_user_name: MandaSoares
-          outputs: |
-            dist/github-snake.svg?color_snake=#e88aab&color_dots=#f8c8d8,#f0a0b8,#e88aab,#d06090,#b84878
-            dist/github-snake-dark.svg?color_snake=#f8c8d8&color_dots=#2d1520,#4a2040,#6e3060,#a04878,#e88aab
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          theme: github-dark
+          output_directory: dist
+          player_style: oportunista
 
       - uses: peaceiris/actions-gh-pages@v4
         with:

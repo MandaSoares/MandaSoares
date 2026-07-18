@@ -43,11 +43,7 @@
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MandaSoares/MandaSoares/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MandaSoares/MandaSoares/output/github-snake.svg" />
-  <img alt="Contribution animation" src="https://raw.githubusercontent.com/MandaSoares/MandaSoares/output/github-snake.svg" />
-</picture>
+<img alt="Pac-Man Contributions" src="https://raw.githubusercontent.com/MandaSoares/MandaSoares/output/github-contribution-grid.svg" />
 
 </div>
 
