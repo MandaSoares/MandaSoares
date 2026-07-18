@@ -43,7 +43,7 @@
 
 <div align="center">
 
-<img alt="Pac-Man Contributions" src="https://raw.githubusercontent.com/MandaSoares/MandaSoares/output/github-contribution-grid.svg" />
+<img alt="Pac-Man Contributions" src="https://raw.githubusercontent.com/MandaSoares/MandaSoares/output/pacman-contribution-graph-dark.svg" />
 
 </div>
 
